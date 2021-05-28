@@ -1,0 +1,66 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/* HEADER ************************************/
+
+header section {
+    display: flex;
+	justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+	align-items: center;
+    background-color: #121212;
+    color: aliceblue;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header section nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section, a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+header section > a {
+    color: #FFF;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav a {
+    color: #9A9DA0;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+header nav a.active { 
+    color: #FFF;
+}
+
+
+/* MAIN ************************************ */
+
+main {
+    padding-top: 70px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.exception {
+    padding-bottom: 100px;
+}
+
