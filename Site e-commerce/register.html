@@ -1,0 +1,64 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Vente du Cher</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="icon" type="png" href="images/logo.png" />
+        <meta charset="utf-8" />
+        <meta name="description" content="Petite description de ma page qui sera affiché dans google" />
+        <meta name="keywords" content="HTML, CSS, Javascript" />
+        <meta name="author" content="Groupe 1 NFA083" /> <!-- A modifier lors de la mise en ligne du site web -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <style>
+            .carousel-indicators li {
+                width: 15px !important;
+                height: 15px !important;
+                border-radius: 50%;
+            }
+            
+           .logoTypo {
+                font-family: 'Leckerli One', cursive;
+                font-size: 1.22em;
+                color: black;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <!-- HEADER ********* -->
+        <header id="header">
+
+            <section>
+
+                <!-- LOGO ********** -->
+                <a class="navbar-brand" href="#">
+                    <span class="logoTypo text-capitalize">Conseil de vente</span>
+                </a>
+<br/>
+
+                <nav>
+                    <a href="site.html" target="_blank" class="active">Menu</a>
+                    <a href="register.html" target="_blank">S'enregistrer/Se connecter</a>
+                    <a href="contact.html" target="_blank">Contact</a>
+                </nav>
+<br/>
+            </section>
+
+        </header>
+
+<form name="regForm">
+		<label>Username: <input type= "text" id= "username"> </label>
+		<label>Password: <input type="password" id="pwd"> </label>
+		<input type="submit" class="login" value="log In" onclick=validation()" formtarget="_blanck">
+</form>
+
+</body>
+</html>
+
